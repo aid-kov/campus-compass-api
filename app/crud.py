@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
 
-import models, schemas
+from app.db import models
 
 
 def get_campuses(db: Session):
